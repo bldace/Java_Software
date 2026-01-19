@@ -11,10 +11,11 @@ package finaltask_beldad;
 public class creds {
 
     public int StudentID;
-    public int GradeSection;
+    public String GradeSection;
     public int[] Grade;
 
-    public creds(int StudentID, int[] Grade) {
+    public creds(int StudentID,String GradeSection, int[] Grade) {
+        this.GradeSection = GradeSection;
         this.StudentID = StudentID;
         this.Grade = Grade;
     }

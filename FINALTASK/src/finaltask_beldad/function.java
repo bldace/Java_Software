@@ -13,5 +13,14 @@ import java.util.HashMap;
 public class function {
     HashMap<info, creds> data = new HashMap<>();
     
+        public void save(String platform){
+            
+        }
+
+    private static class Stri {
+
+        public Stri() {
+        }
+    }
     
 }
